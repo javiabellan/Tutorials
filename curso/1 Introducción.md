@@ -27,9 +27,9 @@ Los tensores sirven para representar datos del mundo real, por ejemplo una palab
 
 Los tensores en tensorflow se pueden representar de varias formas:
 
-* Constante `tf.constant`: Si los valores no se van a modificar.
-* Variable `tf.Variable`: Si los valores cambian.
-* A definir `tf.placeholder`: Si el valor va a ser dado como entrada.
+* Constante ([tf.constant](https://www.tensorflow.org/api_docs/python/tf/constant)): Si los valores no se van a modificar.
+* Variable ([tf.Variable](https://www.tensorflow.org/api_docs/python/tf/Variable)): Si los valores cambian.
+* A definir ([tf.placeholder](https://www.tensorflow.org/api_docs/python/tf/placeholder)): Si el valor va a ser dado como entrada.
 * Salida de una operación: Las salidas de las operacion, son tensores tabién. 
 
 
